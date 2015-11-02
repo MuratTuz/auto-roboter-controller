@@ -1,0 +1,32 @@
+{
+  "name": "autoroboter",
+  "version": "0.1.0",
+  "description": "A roboter controller using mobile phone",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/domch/Autoroboter"
+  },
+  "keywords": [
+    "johnny five",
+    "socket.io",
+    "roboter",
+    "servo",
+    "touch"
+  ],
+  "author": "Mehmet Dogan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/domch/Autoroboter/issues"
+  },
+  "homepage": "https://github.com/domch/Autoroboter",
+  "dependencies": {
+    "express": "^4.13.3",
+    "johnny-five": "^0.9.1",
+    "serialport": "^2.0.2",
+    "socket.io": "^1.3.7"
+  }
+}

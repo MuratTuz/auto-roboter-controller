@@ -1,0 +1,31 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Roboter</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io.connect();
+    </script>
+  </head>
+  <body>
+    <div class="row splash">
+    		<div class="try">
+    			<div class="device">
+    				<div class="device-screen-wrapper">
+    					<div class="device-screen">
+    						<div id="hitarea"></div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <script src="hammer.min.js"></script>
+    <script src="index.js" async></script>
+  </body>
+</html>
